@@ -10,8 +10,17 @@
   line-height: 1.5;
 }
 
-
 /*Reused classes*/
+
+html {
+  background: url("https://source.unsplash.com/BtbjCFUvBXs/") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 .max-width {
   max-width: 1920px;
   padding: 0 85px;
@@ -58,7 +67,7 @@
 
 .navbar.sticky {
   padding: 8px 0;
-  background: #f6416c;
+  background: #000;
 }
 
 .navbar .max-width {
@@ -74,70 +83,63 @@
 }
 
 .navbar-link {
-  color: #f8f3d4;
+  color: #000;
   font-size: 1.25rem;
   font-weight: 500;
   margin-left: 30px;
   transition: color 0.3s ease-in-out;
 }
 
+.navbar.sticky .navbar-logo, .navbar.sticky .navbar-link {
+  color: #fff;
+}
+
 .navbar.sticky .navbar-link:hover {
-  color: white;
+  color: #00C9C8;
 }
 
 .navbar-link:hover {
-  color: #f6416c;
+  color: #00C9C8;
 }
 
 .navbar-logo {
   font-family: 'Sacramento', cursive;
-  color: #f8f3d4;
+  color: #000;
   font-size: 2.625rem;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
 }
 
-.navbar.sticky .navbar-logo span {
-  color: #f8f3d4;
-}
-
-.navbar-logo span {
-  color: #f6416c;
-}
 
 .menu-btn {
   font-size: 1.25rem;
-  color: #f8f3d4;
+  color: #000;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   display: none;
 }
 
 .menu-btn:hover {
-  color: #f6416c;
+  color: #00C9C8;
 }
 
-.navbar.sticky .menu-btn:hover {
-  color:#f8f3d4;
+.navbar.sticky .menu-btn {
+  color: #fff
 }
-
 
 /* Home */
 .home {
-  display: flex;
-  background: url("https://source.unsplash.com/xcNB09CJlRs/4913x3403") no-repeat center;
   height: 100vh;
-  background-size: cover;
-  background-attachment: fixed;
-  color: #f8f3d4;
+  color: #000;
   min-height: 500px;
   font-family: 'Lexend', sans-serif;
   transition: all 0.6s ease-out;
 }
 
 .home .max-width {
-  margin-left: 0;
+  padding-top: 16.5vh;
 }
+
 .hero-text-box {
   padding: 1.75rem;
   position: relative;
@@ -150,7 +152,7 @@
 
 .text-1 {
   position: absolute;
-  left:0;
+  left: 0;
   font-size: 1.625rem;
   max-width: 100%;
 }
@@ -158,7 +160,7 @@
 .text-2 {
   position: absolute;
   top: 35px;
-  left:150px;
+  left: 150px;
   max-width: 100%;
   font-weight: 600;
   font-size: 4.6rem;
@@ -173,25 +175,24 @@
   font-size: 2rem;
   max-width: 50%;
   font-family: 'DotGothic16', sans-serif;
-  color: #f6416c;
   transition: all 0.6s ease-out;
 }
 
 .hero-btn {
   position: relative;
-  background: #f6416c;
+  background: #000;
   right: 28px;
-  color: #f8f3d4;
+  color: #fff;
   font-size: 25px;
   padding: 12px 40px;
   border-radius: 8px;
-  border: 2px solid #f6416c;
   transition: all 0.3s ease;
 }
 
 .hero-btn:hover {
   background: none;
-  color: #f6416c;
+  border: 2px solid #00C9C8;
+  color: #00C9C8;
 }
 
 .hero-btn-box {
@@ -201,19 +202,9 @@
 
 /*about*/
 .about {
+  background: transparent;
   padding: 100px 0;
   font-family: 'Lexend', sans-serif;
-}
-
-.about .section-title::after {
-  content: 'get to know me';
-  position: absolute;
-  font-size: 16px;
-  color: #f6416c;
-  bottom: -14px;
-  left: 0px;
-  padding: 5px 5px 5px 0;
-  background: #fff;
 }
 
 .about-content {
@@ -223,20 +214,19 @@
 }
 
 .about-content .left {
-  width: 45%
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  padding: 20px;
+  width: 45%;
 }
 
 .about-img {
   height: auto;
-  width: 400px;
+  width: 200px;
   object-fit: cover;
-  border-radius: 5% 15% 5% 15%;
+  border-radius: 100%;
 }
 
 .about-content .right {
+  padding: 20px;
   text-align: right;
   display: flex;
   flex-direction: column;
@@ -244,13 +234,9 @@
   width: 55%
 }
 
-.about-content  span {
-  color: #f6416c;
-}
-
 .about-content p {
   text-align: justify;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .about-btn-box {
@@ -258,28 +244,27 @@
 }
 
 .about-btn {
-  text-align: center;
-  background: #f6416c;
-  color: #f8f3d4;
-  font-size: 20px;
-  padding: 1px 50px;
+  background: #000;
+  color: #fff;
+  font-size: 25px;
+  padding: 12px 40px;
   border-radius: 8px;
-  border: 2px solid #f6416c;
   transition: all 0.3s ease;
 }
 
 .about-btn:hover {
   background: none;
-  color: #f6416c;
+  border: 2px solid #00C9C8;
+  color: #00C9C8;
 }
 
 /*responsive media queries*/
-
 @media screen and (min-width: 2560px) {
   .home .max-width {
     margin-left: 320px;
   }
 }
+
 @media screen and (max-width:1024px) {
   .menu-btn {
     display: block;
@@ -296,7 +281,8 @@
     width: 100%;
     left: -100%;
     top: 0;
-    background: #222;
+    background: #303030;
+    color: #fff;
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
@@ -325,14 +311,13 @@
     left: 0;
   }
 
-  .home  {
+  .home {
     background-position: left;
   }
 
   .hero-btn {
     padding: 12px 10px;
   }
-
 
   .about {
     text-align: center;
@@ -374,7 +359,6 @@
     width: 100%;
   }
 }
-
 
 @media screen and (max-width: 425px) {
   .max-width {
