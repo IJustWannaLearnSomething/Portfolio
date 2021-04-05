@@ -1,179 +1,421 @@
+
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js" integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg==" crossorigin="anonymous"></script>
-  <title>Document</title>
-</head>
-
-<body>
-
-  <!--Navbar-->
-  <nav class="navbar">
-    <div class="max-width">
-      <div class="logo">
-        <a class="navbar-logo" href="#home">Sanskar.</a>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a class="navbar-logo" href="#home">Sanskar.</a>
+        </div>
+        <ul class="menu">
+          <li>
+            <a class="navbar-link" href="#home">Home</a>
+          </li>
+          <li>
+            <a class="navbar-link" href="#about">About Me</a>
+          </li>
+          <li>
+            <a class="navbar-link" href="#services">Services</a>
+          </li>
+          <li>
+            <a class="navbar-link" href="#projects">My Projects</a>
+          </li>
+          <li>
+            <a class="navbar-link" href="#">My Skills</a>
+          </li>
+          <li>
+            <a class="navbar-link" href="#">Contact Me</a>
+          </li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
       </div>
-      <ul class="menu">
-        <li>
-          <a class="navbar-link" href="#home">Home</a>
-        </li>
-        <li>
-          <a class="navbar-link" href="#about">About Me</a>
-        </li>
-        <li>
-          <a class="navbar-link" href="#services">Services</a>
-        </li>
-        <li>
-          <a class="navbar-link" href="#projects">My Projects</a>
-        </li>
-        <li>
-          <a class="navbar-link" href="#">My Skills</a>
-        </li>
-        <li>
-          <a class="navbar-link" href="#">Contact Me</a>
-        </li>
-      </ul>
-      <div class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!--Home-->
-  <section class="home" id="home">
-    <div class="max-width">
-      <div class="home-content">
-        <div class="column left">
-          <div class="hero-text-box">
-            <span class="text-1">
-              Hi, I am
-            </span>
-            <span class="text-3">
-              <span class="typing-animation"></span>
-            </span>
-            <span class="vertical-hero-text">
-              <span class="text-2">
-                Sanskar
+    <!--Home-->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="column left">
+            <div class="hero-text-box">
+              <span class="text-1"> Hi, I am </span>
+              <span class="text-3">
+                <span class="typing-animation"></span>
               </span>
-            </span>
-            <div class="hero-btn-box">
-              <a class="hero-btn" href="https://drive.google.com/u/1/uc?id=1w0me-XpOrFhSTbK_Ot6cfYfabZD5MIk7&export=download">Get Resume</a>
+              <span class="vertical-hero-text">
+                <span class="text-2"> Sanskar </span>
+              </span>
+              <div class="hero-btn-box">
+                <a
+                  class="hero-btn"
+                  href="https://drive.google.com/u/1/uc?id=1w0me-XpOrFhSTbK_Ot6cfYfabZD5MIk7&export=download"
+                  >Get Resume</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <img
+              class="hero-img"
+              src="images/undraw_web_developer_p3e5.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--About-->
+    <section class="about" id="about">
+      <div class="max-width">
+        <div class="about-content">
+          <div class="column left">
+            <h2 class="section-title">About Me</h2>
+            <img class="img about-img" src="images/meraPhotu.PNG" alt="" />
+          </div>
+          <div class="column right">
+            <h2 class="section-title">I am Sanskar</h2>
+            <p>
+              I am a final semester student of B.Tech in Computer Science who
+              loves designing and creating websites. My hobbies are learning new
+              things, playing poker, and gaming.
+            </p>
+            <div class="about-btn-box">
+              <a
+                class="about-btn"
+                href="mailto:sanskar.1998x@gmail.com"
+                target="_blank"
+                >Hire Me</a
+              >
             </div>
           </div>
         </div>
-        <div class="column right">
-          <img class="hero-img" src="images/undraw_web_developer_p3e5.svg" alt="">
-        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--About-->
-  <section class="about" id="about">
-    <div class="max-width">
-      <div class="about-content">
-        <div class="column left">
-          <h2 class="section-title">About Me</h2>
-          <img class="img about-img" src="images/meraPhotu.PNG" alt="">
-        </div>
-        <div class="column right">
-          <h2 class="section-title">I am Sanskar</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <div class="about-btn-box">
-              <a class="about-btn" href="#">Hire Me</a>
+    <!--services-->
+    <section class="services" id="services">
+      <div class="max-width">
+        <h2 class="section-title">My Services</h2>
+        <div class="service-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-paint-brush"> </i>
+              <h3 class="text">UI/UX Design</h3>
+              <p>I can design stunning UIs that grab attention.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-chart-line"> </i>
+              <h3 class="text">Website Rework</h3>
+              <p>I can make your website look better.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"> </i>
+              <h3 class="text">Web Development</h3>
+              <p>I can implement mockups into working web sites.</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--services-->
-  <section class="services" id="services">
-    <div class="max-width">
-      <h2 class="section-title">
-        My Services
-      </h2>
-      <div class="service-content">
-        <div class="card">
-          <div class="box">
-            <i class="fas fa-paint-brush">
-            </i>
-            <h3 class="text">
-                  UI/UX Design
-            </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!--skills-->
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <p>
+              I have deep understanding of the basics of HTML, CSS and JS. And I
+              am familiar with SASS, jQuery, BootStrap, etc.
+            </p>
           </div>
-        </div>
-        <div class="card">
-          <div class="box">
-            <i class="fas fa-chart-line">
-            </i>
-            <h3 class="text">
-                  Website Rework
-            </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="box">
-            <i class="fas fa-code">
-            </i>
-            <h3 class="text">
-                  Web Development
-            </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>HTML</span>
+                <span>90%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>CSS</span>
+                <span>70%</span>
+              </div>
+              <div class="line css"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>JavScript</span>
+                <span>60%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>jQuery</span>
+                <span>50%</span>
+              </div>
+              <div class="line jquery"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>BootStrap</span>
+                <span>70%</span>
+              </div>
+              <div class="line bootstrap"></div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="projects" id="projects">
-    <div class="max-width">
-      <h2 class="section-title">My Projects</h2>
-      <div class="project-grid">
-        <div class="project-item medium">
-          <h3>Personal Site</h3>
-          <a class="project-btn" href="https://ijustwannalearnsomething.github.io/Sanskar/"><i class="far fa-window-maximize"></i>Live Version</a>
-          <a class="project-btn" href="https://github.com/IJustWannaLearnSomething/Sanskar"><i class="fab fa-github-square"></i>View Code</a>
-        </div>
-        <div class="project-item large">
-          <h3>Tindog</h3>
-          <a class="project-btn" href="https://ijustwannalearnsomething.github.io/tindog/"><i class="far fa-window-maximize"></i>Live Version</a>
-          <a class="project-btn" href="https://github.com/IJustWannaLearnSomething/tindog"><i class="fab fa-github-square"></i>View Code</a>
-        </div>
-        <div class="project-item medium">
-          <h3>Drum kit</h3>
-          <a class="project-btn" href="https://ijustwannalearnsomething.github.io/Drum-Kit/"><i class="far fa-window-maximize"></i>Live Version</a>
-          <a class="project-btn" href="https://github.com/IJustWannaLearnSomething/Drum-Kit"><i class="fab fa-github-square"></i>View Code</a>
-        </div>
-        <div class="project-item small">
-          <h3>CV</h3>
-          <a class="project-btn" href="https://ijustwannalearnsomething.github.io/cv/"><i class="far fa-window-maximize"></i>Live Version</a>
-          <a class="project-btn" href="https://github.com/IJustWannaLearnSomething/cv"><i class="fab fa-github-square"></i>View Code</a>
-        </div>
-        <div class="project-item tall">
-          <h3>Dice Game</h3>
-          <a class="project-btn" href="https://ijustwannalearnsomething.github.io/Dicee-Challenge/"><i class="far fa-window-maximize"></i>Live Version</a>
-          <a class="project-btn" href="https://github.com/IJustWannaLearnSomething/Dicee-Challenge"><i class="fab fa-github-square"></i>View Code</a>
-        </div>
-        <div class="project-item wide">
-          <h3>Card Counter</h3>
-          <a class="project-btn" href="https://ijustwannalearnsomething.github.io/counting-cards/"><i class="far fa-window-maximize"></i>Live Version</a>
-          <a class="project-btn" href="https://github.com/IJustWannaLearnSomething/counting-cards"><i class="fab fa-github-square"></i>View Code</a>
+    </section>
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <div class="max-width">
+        <h2 class="section-title">My Projects</h2>
+        <div class="carousel owl-carousel">
+          <div class="card">
+            <div class="box">
+              <img src="images/projectOne.png" alt="" />
+              <h3 class="text">Tindog</h3>
+              <p>App Landing Page made using HTML, CSS, and BootStrap</p>
+              <a
+                class="project-btn live"
+                href="https://ijustwannalearnsomething.github.io/tindog/"
+                target="_blank"
+                ><i class="fas fa-window-maximize"></i>Live Version</a
+              >
+              <a
+                class="project-btn git"
+                href="https://github.com/IJustWannaLearnSomething/tindog"
+                target="_blank"
+                ><i class="fab fa-github-square"></i>Code</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="images/projectTwo.png" alt="" />
+              <h3 class="text">Personal Site</h3>
+              <p>Personl page made using vanilla HTML and CSS</p>
+              <a
+                class="project-btn live"
+                href="https://ijustwannalearnsomething.github.io/Sanskar/"
+                target="_blank"
+                ><i class="fas fa-window-maximize"></i>Live Version</a
+              >
+              <a
+                class="project-btn git"
+                href="https://github.com/IJustWannaLearnSomething/Sanskar"
+                target="_blank"
+                ><i class="fab fa-github-square"></i>Code</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="images/projectThree.png" alt="" />
+              <h3 class="text">Login/Signup Page Concept</h3>
+              <p>
+                Concept for a login/signup page made using HTML, SASS and
+                jQuery. Dark Mode and Dual language Feature.
+              </p>
+              <a
+                class="project-btn live"
+                href="https://ijustwannalearnsomething.github.io/stige-assessment/"
+                target="_blank"
+                ><i class="fas fa-window-maximize"></i>Live Version</a
+              >
+              <a
+                class="project-btn git"
+                href="https://github.com/IJustWannaLearnSomething/stige-assessment"
+                target="_blank"
+                ><i class="fab fa-github-square"></i>Code</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="images/projectFour.png" alt="" />
+              <h3 class="text">Drum Kit</h3>
+              <p>Drum Kit made using HTML, CSS and JS</p>
+              <a
+                class="project-btn live"
+                href="https://ijustwannalearnsomething.github.io/Drum-Kit/"
+                target="_blank"
+                ><i class="fas fa-window-maximize"></i>Live Version</a
+              >
+              <a
+                class="project-btn git"
+                href="https://github.com/IJustWannaLearnSomething/Drum-Kit"
+                target="_blank"
+                ><i class="fab fa-github-square"></i>Code</a
+              >
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--Scripts-->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="script/script.js"></script>
-</body>
+    </section>
 
+    <!-- Contact Me -->
+
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <h3 class="text">Get in touch</h3>
+            <p>
+              Do you want to hire me? or want to work together on a project?
+              Drop me a hi and I will get back at you.
+            </p>
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Sanskar</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="sub-title">Ranchi, Jharkhand, India</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">sanskar.1998x@gmail.com</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-phone"></i>
+                <div class="info">
+                  <div class="head">Contact Number</div>
+                  <div class="sub-title">+91-6201298827</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <h3 class="text">Send a message</h3>
+            <form
+              action="mailto:mohitkik2@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <div class="fields">
+                <div class="field name">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    name="Your Name"
+                    required
+                  />
+                </div>
+                <div class="field email">
+                  <input
+                    type="text"
+                    placeholder="Email"
+                    name="Your Email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  name="Subject"
+                  required
+                />
+              </div>
+              <div class="field textarea">
+                <textarea
+                  cols="30"
+                  rows="10"
+                  placeholder="Enter message"
+                  name="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="button">
+                <button>Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <a href="https://github.com/IJustWannaLearnSomething" target="_blank"
+        ><i class="footer-link fab fa-github"></i
+      ></a>
+      <a href="https://www.facebook.com/sanskar.cybergod/" target="_blank"
+        ><i class="footer-link fab fa-facebook-f"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/sanskar-987351196/" target="_blank"
+        ><i class="footer-link fab fa-linkedin-in"></i
+      ></a>
+      <a href="mailto:sanskar.1998x@gmail.com"
+        ><i class="footer-link fas fa-envelope"></i
+      ></a>
+      <p>© Copyright 2021 Sanskar</p>
+    </footer>
+    <!--Scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/script.js"></script>
+  </body>
 </html>
