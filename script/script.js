@@ -6,6 +6,7 @@ var typed = new Typed(".typing-animation", {
   loop: true
 });
 
+// Navigation bar
 $(document).ready(function () {
   $(window).scroll(function () {
     if(this.scrollY > 20) {
@@ -15,8 +16,31 @@ $(document).ready(function () {
     }
   });
 
-  $('.menu-btn').click(function () {
-    $('.menu').toggleClass('active');
-    $('.menu-btn i').toggleClass('active');
-  });
+$('.menu-btn').click(function () {
+  $('.menu').toggleClass('active');
+  $('.menu-btn i').toggleClass('active');
+});
+
+  
+// carousel 
+$('.carousel').owlCarousel({
+   margin: 20,
+   loop: true,
+   autoplayTime: 2000,
+   autoplayHoverPause: true,
+   responsive: {
+     0: {
+       items: 1,
+       nav: false
+     },
+     600: {
+       items: 2,
+       nav: false
+     },
+     1000: {
+       items: 3,
+       nav: false
+     }
+  }
+ });
 });
